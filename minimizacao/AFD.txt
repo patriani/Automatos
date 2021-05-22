@@ -1,0 +1,17 @@
+AFD # (Linha 1) Representação do formalismo
+6 0 1 2 3 4 5# (Linha 2) informação estados
+2 a b # (Linha 3) 2 símbolos: a e b
+0 # (Linha 4) O estado inicial é o 0
+3 0 4 5 # (Linha 5) Possui 1 estado final, o 3.
+0 a 2 # (Linha 6 em diante) δ(q0, a) = q1
+0 b 1 # δ(q0, b) = q2
+1 a 1 # δ(q1, a) = q3
+1 b 0 # δ(q2, a) = q1
+2 a 4 # δ(q2, b) = q3
+2 b 5 # δ(q3, a) = q3
+3 a 5 
+3 b 4
+4 a 3
+4 b 2
+5 a 2
+5 b 3

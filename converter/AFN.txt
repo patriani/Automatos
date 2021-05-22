@@ -1,0 +1,11 @@
+AFN # (Linha 1) Representação do formalismo
+4 1 2 3 4 #(Linha 2) 4 estados: 1, 2, 3 e 4
+2 a b #(Linha 3) 2 símbolos: a e b
+0 #(Linha 4) O estado inicial é o 0
+2 3 4 # (Linha 5) Possui 2 estados finais, 2 e 3.
+1 a 2 3 # (Linha 6 em diante) δ(q1, a) = {q2, q3}
+1 b 3 # δ(q1, b) = {q3}
+2 a 4 # δ(q2, a) = {q4}
+2 b 4 # δ(q2, b) = {q4}
+3 b 3 4 # δ(q3, b) = {q3, q4}
+4 a 4 # δ(q4, a) = {q4}
